@@ -1,24 +1,29 @@
+/*............... this is for back img .......................... */
+.backimg
+{
+background:url(./img/grid_color2.jpg); 
+border-style: solid; 
+border-width: 2px;
+border-color: black;
+}
 /* .............. add card ............................ */
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.card {                          /*---------- css on card ------------------------- */
   max-width: 300px;
-  margin: auto;
   text-align: center;
   font-family: 'Lobster';
   border-style: solid;
-    border-width: 2px;
-    border-color: white;
+  border-width: 2px;
+  border-color: white;
 }
 
-.title {
+.title {                         /*----------css on card text --------------------- */
   color: white;
   font-size: 18px;
-  padding: 0px;
   font-family: 'Lobster';
 }
 
-button {
+button {                        /* ----------- css on card button ----------------- */
   border: none;
   outline: 0;
   display: inline-block;
@@ -26,31 +31,33 @@ button {
   color: white;
   background-color: #000;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer;               /* ----------- full care will show clickable -------- */
   width: 100%;
-  
   font-family: 'Lobster';
   border-style: solid;
-    border-width: 2px;
+  border-width: 2px;
 }
 
-a {
+a {                                /*----------    css on card button text ----------- */
   text-decoration: none;
   font-size: 22px;
   color: white;
   font-family: 'Lobster';
 }
 
-button:hover, a:hover {
+button:hover, a:hover {            /*...........   this color change of drop down items .. */
   opacity: 0.7;
 }
+
+/*............ this is for printing (*) into card ---------------  */
 .checked {
     color: orange;
 }
 
-/*............. new drop down ----------------------- */
+/*.............           top Dropdown menu          ----------------------- */
+
 .navbar {
-    overflow: hidden;
+    overflow: hidden;                    /* ........... text will not show out of border ... */
     background-color: #333;
     font-family: 'Lobster';
     border-style: solid;
@@ -59,8 +66,7 @@ button:hover, a:hover {
     width: 956px;
 }
 
-.navbar a {
-    float: left;
+.navbar a {                             /* ............. Dropdown menu text ............ */
     font-size: 16px;
     color: white;
     text-align: center;
@@ -73,12 +79,12 @@ button:hover, a:hover {
 
 }
 
-.dropdown {
+.dropdown {                           /* ........... menu start from left to rigth ------ */
     float: left;
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropbtn {                  /* ............ divid the two Dropdown items ------ */
     font-size: 16px;    
     border: none;
     outline: none;
@@ -88,21 +94,15 @@ button:hover, a:hover {
     font-family: 'Lobster';
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: bloack;
-}
-
-.dropdown-content {
+.dropdown-content {                   /*.......... after click option it show list properly -*/
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
     font-family: 'Lobster';
 }
 
-.dropdown-content a {
+.dropdown-content a {                /*........... text click list show proper --------- */
     float: none;
     color: black;
     padding: 12px 16px;
@@ -111,30 +111,22 @@ button:hover, a:hover {
     text-align: left;
     font-family: 'Lobster';
 }
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 /* ------------------------ body and upper section ----------------------- */
 
-/*                          this is for upper two logo         */
+
+/* ......................... this is for upper two logo ...................... */
 .test
 { 
   
     height: 120px;
  }
-.test h1{
-   
-    text-align: center;
-            color: black;
-             padding: 9px 32px;
 
-}
+/*-------- start changing here ------------------- */
+
 .test img{
   position: absolute;
     top: 15px;
@@ -149,22 +141,7 @@ button:hover, a:hover {
   left: 430px;
 }
 
-.test2
-{ 
-   width: 200px;
- }
-
- body{background:url(img/white_leather.png) repeat 0 0; }
-}
-
-      
-img {
-    border-radius: 8px;
-}
-
-/*------------------ for button --------------------------------------*/
-
-/*---------------------- buy section -------------------------------------*/
+/*---------------------- buy section heading-------------------------------------*/
 .set1 {
     background-color: black;
     color: white;
@@ -174,8 +151,9 @@ img {
     border-style: solid;
     border-width: 2px;
     font-family: 'Lobster';
+    box-sizing: border-box;
 } 
-
+/*--------------------- login section heading --------------------------------- */
 .set3 {
     background-color: black;
     color: white;
@@ -185,8 +163,10 @@ img {
     border-width: 2px;
     font-family: 'Lobster';
     width:957px;
+    box-sizing: border-box;
 } 
 
+/*------------------- this is footer background -------------------------- */
 
 .set4 {
     background-color: black;
@@ -198,20 +178,7 @@ img {
 
 } 
 
-.set5 {
-    width: 300px;
-    height: 30px;
-}
-/* ----------------  login border ---------------------------- */
-
-#set6 {
-    background-color: lightgrey;
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-}
-
+/* ---------------- this is side menu options and black border ---------------------------- */
 .sidenav {
     width: 190px;
     z-index: 1;
@@ -223,6 +190,7 @@ img {
     overflow-x: hidden;
     padding: 8px 0;
 }
+/*----------------- this is side menu option font ------------------------ */
 
 .sidenav a {
     padding: 3px 3px 2px 16px;
@@ -233,25 +201,7 @@ img {
     font-style: oblique;
     
 }
-
-/* -------------------- side bar option --------------------------- */
-
-/* ------------------------ this is my footer --------------------------   */
-* {box-sizing: border-box}
-
-/* --------------- Set height of body and the document to 100% ----------- */
-
-/* -------------------- Style tab links --------------------------------*/
-
-
-/* ---------- Style the tab content (and add height:100% for full page content)----  */
-
-/* ----------------------------------------------  */
-
-
-/*                     login code here                       */
-
-
+/*..................... this is login code here................................... */
 
 #login_form {
 
@@ -265,30 +215,26 @@ img {
                 font-family: 'Lobster';
                 color: white;
             }
-            .f1_label {
-                white-space: nowrap;
-                color: white;
-            }
+            
+/* --------------------- this is for rating stare color --------------------- */
+
             span {color: white;}
 
-            .new {
-                background: black;
-                text-align: center;
-                color: white;
-            }
-/* ---------------------- body ---------------  */
+/* ------------ -----this is google font link              ---------------  */
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
       
+
+/* ---------------- this is our footer search button --------------------  */
 img {
     border-radius: 8px;
 }
 
-/* ---------------- this is our footer search button --------------------  */
 .search {
   width: 100%;
   position: absolute;
   top:1310px;
   left: 400px;
+ 
 }
 
 .searchTerm {
@@ -300,10 +246,7 @@ img {
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: #00B4CC;
+  box-sizing: border-box;
 }
 
 .searchButton {

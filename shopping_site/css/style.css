@@ -1,0 +1,286 @@
+/*__________________ 0 website background image _______________________ */
+body
+{
+  background-image: url('../image/background_image_folder/full_body_background.png'); 
+}
+/*__________________0 is close now ____________________________________ */
+/* __________________1 this is for upper two logo ______________________*/
+
+div.upper_logo_id
+{
+   background-image:url('../image/background_image_folder/header_background.jpg');
+  height: 120px;
+}
+.upper_logo_id img{
+  position: absolute;
+    top: 15px;
+  width: 90px;
+  left: 50px;
+}
+#side_logo {
+    position: absolute;
+    top: 0px;
+  width: 415px;
+  left: 430px;
+}
+/*____________________1 close ________________________________________*/
+/*____________________2 this is back ground img for all 12 class contianer*/
+#container_background
+ {
+ background-image:url('../image/background_image_folder/back_img.jpg'); 
+ border-style: solid; 
+ border-width: 2px;
+ border-color: black;
+ }    
+/*___________________2 close__________________________________________*/
+ /*__________________3 top Dropdown menu______________________________*/
+
+.navmenuid {
+    overflow: hidden;      /* --> text will not show out of border */
+    background-color: #333;
+    font-family: 'Lobster';
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 956px;
+}
+
+.navmenuid a {            /* --> Dropdown menu text */
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lobster';
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+.dropdown {          /* --> menu start from left to rigth */
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn { /* --> divid the two Dropdown items */
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Lobster';
+}
+
+.dropdown-content {     /*-->after click option it show list properly */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-family: 'Lobster';
+}
+
+.dropdown-content a {   /*--> text click list show proper */
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Lobster';
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*_____________3 is close now _____________________________________*/
+/*_____________4 this is for fron1 id _____________________________*/
+.back_of_container img
+{
+  width: 955px;
+  height: 250px;
+}
+/*______________4 is close __________________________________________*/
+/*______________5 buy section heading________________________________*/
+.buy_section_id {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width:957px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+    box-sizing: border-box;
+}
+/*_______________5 is close ___________________________________________*/
+/*_______________6 side menu options and black border _________________*/
+.side_menu{
+    width: 125px;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+/*----------------- this is side menu option font ------------------------ */
+
+.side_menu a {
+    padding: 3px 3px 2px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    font-style: oblique;
+    
+}
+/*_______________6 close now ___________________________________________*/
+/*_______________7 adding card__________________________________________*/
+.card {                    /*--> css on card   */
+  max-width: 300px;
+  text-align: center;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+.card img
+{
+  width:100%; 
+  height: 225px;
+
+}
+.title {                 /*--> css on card text  */
+  color: white;
+  font-size: 18px;
+  font-family: 'Lobster';
+}
+
+button {                 /*--> css on card button */
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;      /* --> full care will show clickable */
+  width: 100%;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {                    /* --> css on card button text */
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-family: 'Lobster';
+}
+
+button:hover, a:hover {  /*-->  this color change of drop down items .. */
+  opacity: 0.7;
+}
+.checked {     /*--> use to put color into rating stare */
+    color: orange;
+}
+/*_______________ 7 is close now ______________________________________ */
+/*________________8 login section heading _____________________________ */
+.login_id {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+    width:957px;
+    box-sizing: border-box;
+} 
+/*_______________8 close now ___________________________________________ */
+/*_______________9 login form __________________________________________ */
+#f1 {
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 23px 1px 20px 114px;
+    font-family: 'Lobster';
+    color: white;
+    }
+.submitbutton input
+{
+  font-size:15px; 
+  font-style: italic;
+}
+/*______________ 9 is close ____________________________________________ */
+/*______________10 footer border ________________________________________*/
+
+.footer_id{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+
+} 
+/*_______________10 is close __________________________________________  */
+/*______________ 11 footer items space reomve______________________________*/
+.footer_items_space p
+{
+  margin:2px;
+}
+/*_______________11 close now ___________________________________________ */
+/*_______________12 Resize the wrap to search bar change in footer________ */
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search {
+  width: 100%;
+  position: absolute;
+  top:1310px;
+  left: 400px;
+ 
+}
+
+.searchTerm {
+  float: left;
+  width: 200px;
+  height: 40px;
+  border: 3px solid #00B4CC;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  box-sizing: border-box;
+}
+
+.searchButton {
+  position: absolute; 
+
+  right: 145px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*______________ 12 is close_____________________________________________ */
+/*______________ 13 use to reduce img into currly________________________ */
+img {
+    border-radius: 12px;
+}
+/*______________ 13 is close now ________________________________________ */
+/*______________ 19/01/18 knight ________________________________________ */

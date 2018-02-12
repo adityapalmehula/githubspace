@@ -1,0 +1,132 @@
+body
+{
+  background-image: url('../../image/background/body.jpg'); 
+}
+
+/*___________________upper heading___________________________*/
+.upper_logo_id
+{
+   background-image:url('../../image/background/buying_area.jpg');
+    margin-bottom: 2rem;
+}
+
+#main_logo {
+   width: 12rem;
+   margin-left: 11rem;
+}
+#side_logo {
+    width: 42rem;
+}
+/*___________________upper heading close______________________*/
+/*___________________back-ground-img__________________*/
+#container_background
+ {
+ background-image:url('../../image/background/buying_area.jpg'); 
+ border-style: solid; 
+ border-width: -1rem;
+ border-color: black;
+ }
+/*__________________back-ground-img close______________*/
+/*__________________nav-margin,nav-padding_____________*/
+.size_container_items
+{
+  margin: 1rem;
+}
+.responsive_button_area
+{
+  padding-left: 3rem;
+}
+/*_______________close nav-margin,nav-padding_____________*/
+/*____________menu start_____________________________________*/
+.side_menu{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    overflow-x: hidden;
+    margin-bottom:2rem;
+     background-image: url('../../image/background/body.jpg'); 
+}
+
+.side_menu a {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;  
+    font-style: italic; 
+}
+/*_____________menu close here________________________________*/
+/*____________card  start ___________________________________________*/
+.card {                    
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  /*background-image:url('../image/background/buying_area.jpg');*/
+  background-image: url('../../image/background/body.jpg'); 
+  padding: 1rem;
+}
+.card p
+{
+  color: white; 
+  margin:2px;
+}
+#about
+{
+  color: white; 
+  margin:12px;
+}
+#info
+{
+  color: white;
+  margin:5px;
+}
+.title {                 /*--> css on card text  */
+  color: white;
+  font-size: 18px;
+  font-family: 'Lobster';
+}
+
+button {                 /*--> css on card button */
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;      /* --> full care will show clickable */
+  width: 100%;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {                    /* --> css on card button text */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button:hover, a:hover {  /*-->  this color change of drop down items .. */
+  opacity: 0.7;
+}
+.checked {     /*--> use to put color into rating stare */
+    color: orange;
+}
+/*____________card close_________________________________________*/
+
+/*____________footer start here__________________________________*/
+.footer_id{
+     background-image: url('../../image/background/body.jpg');
+    color: white;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+
+} 
+/*_______________footer  close __________________________________________  */
+/*______________ 11 footer items space reomve______________________________*/
+.footer_heading h3
+{
+  padding: 1rem;
+}

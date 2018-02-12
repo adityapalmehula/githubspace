@@ -1,0 +1,172 @@
+body
+{
+  background-image: url('../image/background/body.jpg'); 
+}
+
+/*___________________upper heading___________________________*/
+.upper_logo_id
+{
+   background-image:url('../image/background/buying_area.jpg');
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 450px)
+{
+#main_logo {
+   width: 6rem;
+   margin-left: 11rem;
+}
+}
+@media screen and (max-width: 768px)
+{
+#main_logo {
+   width: 8rem;
+   margin-left: 11rem;
+}
+}
+#side_logo {
+    width: 42rem;
+}
+/*___________________upper heading close______________________*/
+/*___________________back-ground-img__________________*/
+#container_background
+ {
+ background-image:url('../image/background/buying_area.jpg'); 
+ border-style: solid; 
+ border-width: -1rem;
+ border-color: black;
+ }
+/*__________________back-ground-img close______________*/
+/*__________________nav-margin,nav-padding_____________*/
+.size_container_items
+{
+  margin: 1rem;
+}
+.responsive_button_area
+{
+  padding-left: 3rem;
+}
+/*_______________close nav-margin,nav-padding_____________*/
+/*_______________main-front-logo__________________________*/
+.back_of_container img
+{
+	width: 110rem;
+}
+/*____________close main-front-logo__________________________*/
+/*____________buy section start__________________________*/
+ .buy_section_id {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+    box-sizing: border-box;
+}
+/*____________close buy section______________________________*/
+/*____________menu start_____________________________________*/
+.side_menu{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    overflow-x: hidden;
+    margin-bottom:2rem;
+     background-image: url('../image/background/body.jpg'); 
+}
+
+.side_menu a {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;  
+    font-style: italic; 
+}
+/*_____________menu close here________________________________*/
+.card_modif
+{
+  padding-bottom: 2rem;
+}
+/*____________card  start ___________________________________________*/
+.card {                    
+   width: 25rem;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  /*background-image:url('../image/background/buying_area.jpg');*/
+  background-image: url('../image/background/body.jpg'); 
+}
+.card img
+{
+  width:24rem; 
+  height: 225px;
+
+}
+.title {                 /*--> css on card text  */
+  color: white;
+  font-size: 18px;
+  font-family: 'Lobster';
+}
+
+button {                 /*--> css on card button */
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;      /* --> full care will show clickable */
+  width: 100%;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {                    /* --> css on card button text */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button:hover, a:hover {  /*-->  this color change of drop down items .. */
+  opacity: 0.7;
+}
+.checked {     /*--> use to put color into rating stare */
+    color: orange;
+}
+/*____________card close_________________________________________*/
+/*_______________ login form __________________________________________ */
+#f1 {
+    background-image: url('../image/background/body.jpg');
+    border-style: solid;
+    border-width: -1rem;
+    padding:2rem;
+    font-family: 'Lobster';
+    }
+
+.submitbutton input
+{
+  font-size:2rem; 
+  font-style: italic;
+}
+.checkbox input
+{
+  color: red;
+}
+/*______________ close login ____________________________________________ */
+
+.footer_id{
+     background-image: url('../image/background/body.jpg');
+    color: white;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+
+} 
+/*_______________10 is close __________________________________________  */
+/*______________ 11 footer items space reomve______________________________*/
+.footer_heading h3
+{
+  padding: 1rem;
+}

@@ -1,0 +1,36 @@
+
+.card {                    /*--> css on card   */
+  width: 250px;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+.card img
+{
+  width:100%; 
+  height: 230px;
+
+}
+.title {                 /*--> css on card text  */
+  color: white;
+  font-size: 18px;
+  font-family: 'Lobster';
+}
+
+button {                 /*--> css on card button */
+  background-color: black;
+  padding: 10px;
+  cursor: pointer;      /* --> full care will show clickable */
+  width: 100%;
+}
+
+a {                    /* --> css on card button text */
+  font-size: 14px;
+  color: white;
+  font-family: 'Lobster';
+}
+.checked {     /*--> use to put color into rating stare */
+    color: orange;
+}
+body{background-color: blue;}

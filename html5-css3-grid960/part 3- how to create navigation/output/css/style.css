@@ -1,0 +1,65 @@
+.navmenuid {
+    overflow: hidden;      /* --> text will not show out of border */
+    background-color: #333;
+    font-family: 'Lobster';
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 956px;
+}
+
+.navmenuid a {            /* --> Dropdown menu text */
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lobster';
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+.dropdown {          /* --> menu start from left to rigth */
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn { /* --> divid the two Dropdown items */
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Lobster';
+}
+
+.dropdown-content {     /*-->after click option it show list properly */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-family: 'Lobster';
+}
+
+.dropdown-content a {   /*--> text click list show proper */
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Lobster';
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*_____________3 is close now _____________________________________*/
+/*_____________4 this is for fron1 id _____________________________*/
+.back_of_container img
+{
+  width: 955px;
+  height: 250px;
+}

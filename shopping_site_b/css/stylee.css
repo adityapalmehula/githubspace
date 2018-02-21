@@ -1,0 +1,123 @@
+body
+{
+  background-image: url('../image/background_image_folder/full_body_background.png'); 
+}
+
+
+
+.upper_logo_id
+{
+   background-image:url('../image/background_image_folder/header_background.jpg');
+  
+}
+#main_logo {
+   width: 12rem;
+   height: 12rem;
+   padding: 2rem;
+}
+#side_logo {
+    width: 42rem;
+}
+
+
+
+
+#container_background
+ {
+ background-image:url('../image/background_image_folder/back_img.jpg'); 
+ border-style: solid; 
+ border-width: 2px;
+ border-color: black;
+ }
+
+
+
+.back_of_container img
+{
+	width: 110rem;
+}
+
+ .buy_section_id {
+    background-color: black;
+    color: white;
+    padding: 4px;
+
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Lobster';
+    box-sizing: border-box;
+}
+
+
+
+.side_menu{
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.side_menu a {
+    padding: 3px 3px 2px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    font-style: oblique;
+    
+}
+
+
+
+
+.card {                    /*--> css on card   */
+   width: 25rem;
+  text-align: center;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+  margin: 2rem;
+  background-color: blue;
+}
+.card img
+{
+  width:24rem; 
+  height: 225px;
+
+}
+.title {                 /*--> css on card text  */
+  color: white;
+  font-size: 18px;
+  font-family: 'Lobster';
+}
+
+button {                 /*--> css on card button */
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;      /* --> full care will show clickable */
+  width: 100%;
+  font-family: 'Lobster';
+  border-style: solid;
+  border-width: 2px;
+}
+
+a {                    /* --> css on card button text */
+  text-decoration: none;
+  font-size: 14px;
+  
+  font-family: 'Lobster';
+}
+
+button:hover, a:hover {  /*-->  this color change of drop down items .. */
+  opacity: 0.7;
+}
+.checked {     /*--> use to put color into rating stare */
+    color: orange;
+}

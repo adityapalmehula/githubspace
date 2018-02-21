@@ -1,0 +1,18 @@
+.upper_logo_id
+{
+   background-image:url('../img/header_background.jpg');
+  height: 120px;
+  
+}
+.upper_logo_id img{
+  position: absolute;
+    top: 20px;
+  width: 90px;
+  left: 50px;
+}
+#side_logo {
+    position: absolute;
+    top: 8px;
+  width: 415px;
+  left: 430px;
+}
